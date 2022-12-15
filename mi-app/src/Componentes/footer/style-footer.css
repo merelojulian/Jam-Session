@@ -1,0 +1,117 @@
+.containerFooter {
+    padding: 30px;
+    color: white;
+    background-color: rgb(47, 1, 28);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 420px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+.containerFooter h3 {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+.containerFooter .imagen {
+    margin: 30px;
+    margin-left: 50px;
+    display: inline;
+    filter: hue-rotate(60deg) brightness(400%);
+}
+
+
+.containerFooter .formulario input {
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: white;
+    border: white thin solid;
+    border-radius: 20px;
+    /*    border-bottom: white thin solid;*/
+    text-align: left;
+    padding: 12px;
+    font-size: .9rem;
+}
+
+
+.containerFooter #mensaje input {
+    height: 55px;
+    border-radius: 10px;
+}
+
+.containerFooter::placeholder {
+    color: rgba(255, 105, 0, 1);
+}
+
+.containerFooter .formulario button {
+    width: 45%;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: rgba(255, 105, 0, 1);
+    font-weight: 600;
+    font-size: .8rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+.formulario button:hover {
+    background-color: white;
+    color: rgba(255, 105, 0, 1);
+    transition: all 0.8s;
+}
+
+
+#iconos {
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(47, 1, 28);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+#iconos #facebook:hover {
+    color: #4267B2;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#iconos #twitter:hover {
+    color: #1DA1F2;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#iconos #instagram:hover {
+    color: #405DE6;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+#iconos a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 1, 28);
+    padding: 10px;
+}
+

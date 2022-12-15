@@ -1,0 +1,17 @@
+.contenedor {
+    width: 50%;
+    height: 250px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateX(400px);
+    background: linear-gradient(to right, rgba(107, 0, 62, 0.812), rgba(255, 106, 0, 0.861));
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+.contenedor .info{
+    font-size: 14.7px;
+}
